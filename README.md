@@ -54,8 +54,8 @@ To give you some hint, here is what you can do with respect to tuning the hyper-
 While we perform dimension reduction separately for numerical and categorical data, there are methods that can perform clustering analysis with numerical and categorical data combined. As usual, the most important aspect is the distance metric to use. For mixed data
 types, researchers have proposed to use the Gower distance. The Gower distance is essentially a special distance metric that measures numerical data and categorical data separately, then combine them to form a distance calculation. Here are your tasks for clustering:
 
-1. Tutorials on Gower distance can be found [here](https://rstudio-pubs-static.s3.amazonaws.com/423873_adfdb38bce8d47579f6dc916dd67ae75.html
-https://medium.com/analytics-vidhya/gowers-distance-899f9c4bd553)
+1. Tutorials on Gower distance can be found here : https://rstudio-pubs-static.s3.amazonaws.com/423873_adfdb38bce8d47579f6dc916dd67ae75.html
+https://medium.com/analytics-vidhya/gowers-distance-899f9c4bd553/
 
 2. Compute the Gower distance of the full predictors set, i.e. no train/test split. There
 is a Python library called gower you can use [link here](https://pypi.org/project/gower/)
